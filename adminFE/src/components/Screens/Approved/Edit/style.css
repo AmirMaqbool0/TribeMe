@@ -1,0 +1,12 @@
+@media screen and (max-width:680px) {
+    .brand-logo{
+      display: flex !important;
+      flex-direction: column !important;
+
+      gap: 20px;
+      align-items: start;
+    }
+    .upload-btn{
+     margin-left: -0px !important;
+    }
+  }

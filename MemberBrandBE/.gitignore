@@ -1,0 +1,10 @@
+node_modules/
+uploads/
+dist/
+*.log
+*.error
+.env
+keys
+testings
+.github/
+# .github/workflows/deploy.yml

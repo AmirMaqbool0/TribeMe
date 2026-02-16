@@ -1,0 +1,50 @@
+/* phoneInputStyles.css */
+
+.phone-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.phone-input-wrapper .form-control {
+  width: 100%;
+  padding: 16.5px 14px 16.5px 58px;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  border: 1px solid #bebfc1;
+  border-radius: 4px;
+  background-color: #fff;
+  color: black; /* Updated text color */
+  box-shadow: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  height: 3.5rem;
+}
+
+.phone-input-wrapper .form-control:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.3);
+  outline: none;
+}
+
+.phone-input-wrapper .flag-dropdown {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  color: black; /* Updated text color */
+}
+
+.phone-input-wrapper .selected-flag {
+  padding-left: 12px;
+  color: black; /* Updated text color */
+}
+
+.phone-input-wrapper .country-list {
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  color: black; /* Updated text color */
+}
+
+.phone-input-wrapper .country-list li {
+  color: black; /* Updated text color for list items */
+}

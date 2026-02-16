@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-geist-sans: 'Geist Sans', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
+body {
+  font-family: var(--font-geist-sans);
+}
+
+/* Red scrollbar for WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF3951;
+  border-radius: 10px;
+  border: 2px solid #f0f0f0; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff6b81;
+}
+
+/* Body scrollbar */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #FF3951 #f0f0f0;
+}
+
+/* Apply scrollbar styles to the main content */
+main, body, table{
+  scrollbar-width: thin;
+  scrollbar-color: #FF3951 #f0f0f0;
+}
+

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "strict": false,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "paths": {
+      "*": ["node_modules/*"],
+      "@src/*": ["../*"]
+    }
+  },
+  "include": ["src/**/*", "tests/**/*", "ormconfig.ts"]
+}

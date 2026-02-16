@@ -1,0 +1,65 @@
+:root{
+    --dark-gray:#272727;
+    --white:white;
+}
+.header-container{
+    height: 80px;
+    border-radius:8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+}
+.text{
+    font-size: 22px;
+    color: var(--dark-gray);
+    font-weight: 600;
+}
+.tab-btn{
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.user-icon{
+    border-radius: 3px;
+}
+.user-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Offers  */
+.offers-container{
+    height: 179vh;
+}
+.wining-offers,.wining-sub{
+  width: 49.5%;
+}
+.top-five-offers{
+    width: 100%;
+    height: 350px;
+
+}
+
+/* Memmber KPIS */
+
+.sign-up-rates{
+    width: 100%;
+}
+
+/* Tribes  */
+.tribes{
+    flex-direction: column;
+    height: fit-content;
+}
+.top-trib,.trending-trib{
+    width: 100%;
+    height: fit-content;
+}
+
+
+.model-btn{
+    color: black;
+}

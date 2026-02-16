@@ -1,0 +1,49 @@
+.dot-wave {
+  display: inline-flex;
+  align-items: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.1em;
+  border-radius: 50%;
+  background-color: currentColor;
+  animation: dot-wave 1s infinite;
+}
+
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+@media screen and (max-width:480px) {
+  .edit-btn{
+    margin-left: 0;
+    margin-top: 20px;
+   
+  }
+}
+@keyframes dot-wave {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-0.3em);
+  }
+
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+}
+
