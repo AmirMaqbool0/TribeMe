@@ -166,9 +166,7 @@ const config = convict({
   stripe: {
     apikey: {
       format: "*",
-      default:
-        "sk_test_51QhbOQQsPOAaN44iDTdpMAZrFzKPodl0qEOoEPA2fFCJa7gAnXMbHbSjt5o3G6ml8Mh75EfSOGOhj4BwCnJvcfI800xBt5OUcq",
-      env: "STRIPE_API_KEY",
+   
     },
   },
   google: {

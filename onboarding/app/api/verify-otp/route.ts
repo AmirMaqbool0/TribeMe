@@ -3,7 +3,7 @@ import { Twilio } from 'twilio';
 
 export async function POST(req: NextRequest) {
   try {
-    const accountSid = process.env.TWILIO_ACCOUNT_SID;
+    const accountSid = process.env.;
     const authToken = process.env.TWILIO_AUTH_TOKEN;
     const verifySid = process.env.TWILIO_VERIFY_SERVICE_SID;
 
